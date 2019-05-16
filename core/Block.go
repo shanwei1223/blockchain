@@ -39,5 +39,5 @@ func CreateGenesisBlock() Block{
 	block := Block{}
 	block.Index = -1
 	block.Hash = ""
-	return CreateNewBlock(block, "Genesis Block")
+	return CreateNewBlock(block, "创世区块")
 }

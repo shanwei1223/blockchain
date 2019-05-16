@@ -28,7 +28,7 @@ func (bc *BlockChain) AppendBlock(b *Block){
 		bc.Block = append(bc.Block, b)
 		return
 	} else {
-		log.Fatal("Invalid Block.")
+		log.Fatal("无效块.")
 	}
 }
 
