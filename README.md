@@ -6,7 +6,7 @@
 
     // 获取项目源码
     $ cd $GOPATH/src
-    $ git clone git@github.com:AustinDeng/BlockChain.git
+    $ git clone git@github.com:shanwei1223/blockchain.git
     
 
 ## 运行
@@ -94,6 +94,7 @@
     	TimeStamp int64
     	PrevBlockHash string
     	Hash string
+    	
     	Data string
     }
     
